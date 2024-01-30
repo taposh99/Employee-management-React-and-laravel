@@ -101,7 +101,7 @@ useEffect(() => {
   }
 
   return (
-    <div className="d-flex align-items-center justify-content-center vh-100">
+    <div className="d-flex align-items-center justify-content-center vh-100"  style={{ background: 'aqua' }}>
        <h1>Employee Details</h1>
        <div className="container mt-4" >
           <form>
