@@ -35,7 +35,7 @@ useEffect(() => {
           mobile: mobile
         
         });
-          alert("Employee Registation Successfully");
+        //   alert("Employee Registation Successfully");
           setId("");
           setName("");
           setAddress("");
@@ -86,7 +86,7 @@ useEffect(() => {
          mobile: mobile
        
        });
-         alert("Registation Updateddddd");
+        //  alert("Registation Updateddddd");
          setId("");
          setName("");
          setAddress("");
@@ -101,7 +101,7 @@ useEffect(() => {
   }
 
   return (
-    <div>
+    <div className="d-flex align-items-center justify-content-center vh-100">
        <h1>Employee Details</h1>
        <div className="container mt-4" >
           <form>
